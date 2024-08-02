@@ -58,8 +58,8 @@ void	cast_ray(t_data *data, float ray_angle, int i)
 	P2->y = start->y + data->temp->step_y;
 	printf("P2 x %f\n",P2->x);
 	printf("P2 y %f\n",P2->y);
-	true_sect = check_true_intersection(start, P2, data);
-	exit(0);
+	// true_sect = check_true_intersection(start, P2, data);
+	// exit(0);
 	while (!data->temp->hit_wall)
 	{
 		update_ray_position(data);
